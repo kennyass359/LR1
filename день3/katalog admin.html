@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>katalog admin | NeNetflix</title>
+    <link rel="stylesheet" href="/css/glavnaya.css">
+</head>
+<style type="text/css">
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    td {
+        position: relative;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    td img {
+        width: 150%;
+        height: auto;
+        border: white solid 1px;
+    }
+
+    td img:hover {
+        width: 150%;
+        height: auto;
+        border: red solid 1px;
+    }
+
+    figure {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    figcaption, .red{
+        font-style: bold;
+        font-size: 20px;
+        margin-top: 5px;
+        text-decoration: none;
+    }
+
+    .price {
+        position: absolute;
+        bottom: 30px;
+        right: 1px;
+        background-color: #ff0000;
+        color: #fff;
+        font-size: 20px;
+        line-height: 1;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .price::after {
+        content: "49 р";
+        font-size: 20px;
+        margin-top: 3px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="/glavnaya.html"><img width="40%" src="/img/image-PhotoRoom.png-PhotoRoom.png" alt=""></a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Где нас найти?</a></li>
+                <li><a href="/about.html">О нас</a></li>
+                <li><a href="/katalog.html">Афиша</a></li>
+                <li><a href="/register.html"><img class="lk" width="80%" src="/img/image 5.svg" alt=""></a></li>
+                <li><a href="#"><img class="lk" width="40%" src="/img/black.png" alt=""></a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div>
+            <a class="red" href="#">Редактировать</a>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <figure>
+                        <img src="/img/04sN9gOg47K1MaplE3fAnn21VQ7vllzYN.jfif" alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="/img/ARjMpR4RVo2z_t5Mai3JtXcIicVJuHDD3ioNcZRntQjMCXEw-ADOnw.jfif" alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="/img/C0c3tIT1mbchBWmT.jfif" alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="/img/C0c3tIT1mbchBWmTpIsQFNFDBuvMsaIOBxhnPPADdOJoJZ2GKzj6FomkJJDMPZQmMbXRFE9b.jfif"
+                            alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="/img/cIicVJuHDD3ioNcZRntQ.jfif" alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <figure>
+                        <img src="/img/g47K1MaplE3fAnn21VQ7vlhy.jfif" alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="/img/Iuyxg4XJoJZ2G.jfif" alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="/img/JZ2GKzj6FomkJJDMPZQmMbXRFE9b.jfif" alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="/img/lE3fAnn21VQ7vdmyIF_f1U378lPJOVyhiPylQ5yTpPKrS.jfif" alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="/img/QFNFDBKkpg6e04sN9gOg47K1Map.jfif" alt="Изображение 1">
+                        <figcaption>Название</figcaption>
+                        <div class="price"></div>
+                    </figure>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2023 NeNetflix</p>
+    </footer>
+</body>
+
+</html>

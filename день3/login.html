@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Войти | NeNetflix</title>
+  <link rel="stylesheet" href="/css/register.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="/glavnaya.html"><img width="40%" src="/img/image-PhotoRoom.png-PhotoRoom.png" alt=""></a>
+
+    </div>
+  
+    <nav>
+      <ul>
+        <li><a href="#">Где нас найти?</a></li>
+        <li><a href="/about.html">О нас</a></li>
+        <li><a href="/katalog.html">Афиша</a></li>
+        <li><a href="/register.html"><img class="lk" width="80%" src="/img/image 5.svg" alt=""></a></li>
+    </ul>
+    </nav>
+
+  </header>
+  <form method="post" action="process-registration.php">
+    <h2>Войти</h2>
+
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="phone_number">Номер телефона:</label>
+    <input type="tel" name="phone_number" id="phone_number">
+
+    <label for="password">Пароль:</label>
+    <input type="password" name="password" id="password" required>
+
+    <input type="submit" value="Войти">
+</form>
+  <footer>
+    <p>&copy; 2023 NeNetflix</p>
+  </footer>
+</body>
+
+</html>
